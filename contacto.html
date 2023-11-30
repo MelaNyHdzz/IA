@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog - Contacto</title>
+        <link href="css/t03-estilos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    
+    <body>
+
+        <!--Cambio de páginas-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Men&uacute;</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="t03-articulo.html">ARTICULO</a>
+                   </li>
+              </ul>
+          </div>
+          </div>
+      </nav>
+      <!--No pude CENTRAR esto-->
+      <!--cONTENEDOR-->
+      <div class="container">
+  
+        <!--Encabezado-->
+        <div id="zona-encabezado">
+            <h1>Contacto</h1>
+        </div>
+
+        <!--Zona de imagenes-->
+        <div id="zona-imagenes">
+            <p class="imagen">
+                <br>
+                    <img class="imagen" src="INTELI.jpg">
+                    <img class="imagen" src="Art.jpg">
+                   
+                    
+                </br>
+            </p>
+        </div>
+
+        <!--Texto-->
+        <div class="texto-cuerpo">
+            <p>Puedes encontrarme en mis redes sociales:</p>
+            <ul>
+                <li><A href="https://www.youtube.com/?gl=MX&hl=es-419" target="_blank">Youtube</A></li>
+                <li><A href="https://twitter.com/?lang=es" target="_blank">Twitter</A></li>
+                
+            </ul>
+        </div>
+        
+        <!--Leyenda del final-->
+        <div id="zona-final">
+            <p class="texto-final">
+                <form action="registro.php" method="post">
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="apellido">Apellido</label>
+                      <input type="text" class="form-control" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="correo">Correo electrónico</label>
+                      <input type="email" class="form-control" id="correo" name="correo" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="contrasena">Contraseña</label>
+                      <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                  </form>
+                  
+                </p>
+        </div>
+      </div>
+
+    </body>
+</html>
